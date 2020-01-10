@@ -1,0 +1,16 @@
+{
+    "name": "API_SAMPLE",
+    "manifest_version": 2,
+    "version": "1.0",
+    "browser_action": {
+        "default_title": "API_SAMPLE"
+    },
+    "permissions": [
+        "contentSettings"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+  }
